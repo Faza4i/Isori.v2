@@ -3,7 +3,6 @@ from disnake.ext import commands
 import yt_dlp
 import asyncio
 
-
 FFMPEG_OPTIONS = {
     'before_options': '-reconnect 1 -reconnect_streamed 1 -reconnect_delay_max 5 -nostdin',
     'options': '-vn'
@@ -13,8 +12,9 @@ YDL_OPTIONS = {
     'noplaylist': True,
     'quiet': True,
     'no_warnings': True,
-    'cookiefile': 'www.youtube.com.txt'
+    'cookiefile': 'C:\\Users\\terra\\PycharmProjects\\Isori-bot\\YTcooke'  # Укажите ваш полный путь с двойными слэшами
 }
+
 CACHE = {}
 
 
