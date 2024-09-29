@@ -3,6 +3,7 @@ from disnake.ext import commands
 import os
 from random import choice
 from dotenv import load_dotenv
+import keeplive
 
 Prefix = "Is."
 bot = commands.Bot(command_prefix=Prefix,
@@ -99,6 +100,8 @@ async def on_member_join(member):
     await channel.send(embed=embed)
 
 
+# keep alive
+keeplive.keep_alive()
 # run bot
 load_dotenv()
 BOT_TOKEN = os.getenv('TOKEN')
