@@ -12,8 +12,9 @@ YDL_OPTIONS = {
     'noplaylist': True,
     'quiet': True,
     'no_warnings': True,
-    'user_agent': 'Mozilla/5.0 (Linux; Android 10; Mobile; rv:89.0) Gecko/89.0 Firefox/89.0',  # Мобильный User-Agent
+    'proxy': 'http://104.207.44.56:3128',  # Указываем ваш прокси-сервер
 }
+
 
 CACHE = {}
 
