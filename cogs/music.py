@@ -12,7 +12,6 @@ YDL_OPTIONS = {
     'noplaylist': True,
     'quiet': True,
     'no_warnings': True,
-    'proxy': 'http://104.207.44.56:3128',  # Указываем ваш прокси-сервер
 }
 
 
