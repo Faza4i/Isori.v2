@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: DiscordBot
+    env: python
+    buildCommand: |
+      apt-get update && apt-get install -y ffmpeg
+      pip install -r requirements.txt
+    startCommand: "python main.py"
+    plan: free
+    envVars:
+      - key: TOKEN
+        sync: false
