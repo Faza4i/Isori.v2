@@ -12,7 +12,8 @@ YDL_OPTIONS = {
     'format': 'bestaudio',
     'noplaylist': True,
     'quiet': True,
-    'no_warnings': True
+    'no_warnings': True,
+    'cookiefile': 'www.youtube.com.txt'
 }
 CACHE = {}
 
