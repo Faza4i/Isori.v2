@@ -28,14 +28,6 @@ class CMDUsers(commands.Cog):
     @commands.command()
     async def help(self, ctx):
         embed = disnake.Embed(title="Commands", colour=0x00ffdc)
-        embed.add_field(name='• Music commands', value='  Is.play\n  '
-                                                         'Is.skip\n  '
-                                                         'Is.pause\n  '
-                                                         'Is.resume\n  '
-                                                         'Is.queue\n  '
-                                                         'Is.remove\n  '
-                                                         'Is.clear', inline=True)
-
         embed.add_field(name='• NSFW commands', value="Is.random\n  "
                                                       "Is.futa\n  "
                                                       "Is.furry\n  "
